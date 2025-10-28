@@ -11,5 +11,14 @@ config_version=5
 [application]
 
 config/name="Moonshot"
+run/main_scene="uid://dkseq8uyytrd5"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/mode=2
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
